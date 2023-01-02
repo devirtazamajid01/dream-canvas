@@ -1,0 +1,94 @@
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== Runtime / PIDs =====
+pids/
+*.pid
+*.pid.lock
+
+# ===== Dependencies & Caches =====
+node_modules/
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.turbo/
+.bun/
+.fleet/
+
+# ===== Build Artifacts =====
+dist/
+dist-ssr/
+out/
+build/
+storybook-static/
+coverage/
+
+# ===== Framework Outputs =====
+.next/
+.nuxt/
+.vite/
+.svelte-kit/
+.angular/
+.tmp/
+
+# ===== Env & Secrets =====
+# Ignore all env files, but keep samples/examples
+.env
+.env.*
+.env.local
+.env.*.local
+.envrc
+*.env
+*.env.* 
+*.secret
+secrets.*
+!.env.example
+!.env.sample
+!.env.testing.example
+!.env.development.example
+!.env.production.example
+
+# ===== Editor / Project Files =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tmp
+*.bak
+
+# ===== OS-specific =====
+.DS_Store
+Thumbs.db
+*.AppleDouble
+*.LSOverride
+
+# ===== Test Artifacts =====
+cypress/screenshots/
+cypress/videos/
+playwright-report/
+test-results/
+
+# ===== Misc =====
+*.orig
+*.rej
+*.seed
+
+# ===== (Optional) Lockfiles — uncomment if enforcing a single PM =====
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lockb
+
+# ===== Local Scripts =====
+generate_commits.sh
