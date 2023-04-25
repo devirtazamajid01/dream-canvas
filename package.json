@@ -1,0 +1,20 @@
+{
+  "name": "dream-canvas",
+  "version": "1.0.0",
+  "main": "/server/src/app.ts",
+  "repository": "https://github.com/devirtazamajid01/dream-canvas.git",
+  "description": "Dream Canvas – AI-powered image generator with modern React client and secure Node/Express backend.",
+  "author": "Irtaza Majid",
+  "license": "MIT",
+  "scripts": {
+    "clean": "npx rimraf client/dist server/build",
+    "server-build": "cd server && npm ci || npm install && npm run build",
+    "client-build": "cd client && npm ci || npm install && npm run build",
+    "build": "npm install && npm run client-build && npm run server-build",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.0"
+  }
+}
