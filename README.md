@@ -28,7 +28,7 @@ npm install
 
 # 2) Start dev servers
 npm run dev:client   # client on http://localhost:3000
-npm run dev:server   # server on http://localhost:5000 (configurable)
+npm run dev:server   # server on http://localhost:8080 (configurable)
 
 # 3) Build
 npm run build        # builds client then server
